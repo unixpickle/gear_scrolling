@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8" standalone="no" ?>
+<svg xmlns="http://www.w3.org/2000/svg" version="1.1" viewBox="0 0 100 123.5">
+  <path id="lid" d="M5,0 h90 a5,5 0 0 1 5,5 v5 a5,5 0 0 1 -5,5 h-90
+           a5,5 0 0 1 -5,-5 v-5 a5,5 0 0 1 5,-5 z" />
+  <path id="fluid" fill="#447755"
+        d="M5,55 v50 a15,15 0 0 0 15,15 h60 a15,15 0 0 0 15,-15 v-50
+           q-9,-5 -18,0 t-18,0 t-18,0 t-18,0 t-18,0 z" />
+  <path id="body" fill="none" stroke="black" stroke-width="7"
+        d="M5,25 v80 a15,15 0 0 0 15,15 h60 a15,15 0 0 0 15,-15 v-80 z" />
+</svg>
