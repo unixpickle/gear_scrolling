@@ -14,7 +14,6 @@
     this._halfHeight = this._element.offsetHeight / 2;
     this._element.style.top = 'calc(' + topPercent + '% - ' + this._halfHeight.toFixed(1) + 'px)';
 
-    this.updateAngle();
     window.addEventListener('scroll', function() {
       if (window.scrollX !== 0) {
         this._translate = 'translateX(' + -window.scrollX.toFixed(2) + 'px) ';
@@ -26,6 +25,7 @@
     window.addEventListener('resize', this.updateAngle.bind(this));
 
     this._translate = '';
+    this.updateAngle();
   }
 
   Gear.prototype.updateAngle = function() {
